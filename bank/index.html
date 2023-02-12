@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.frams/bootstrap.min.css">
+    <link rel="stylesheet" href="css.frams/all.min.css">
+    <link rel="stylesheet" href="css.frams/style.css">
+    
+</head>
+<body>
+   <div class="page">
+        <div class="box">
+            <label for="demo1">loan value</label>
+            <input type="number" class=" form-control" id="demo1" required>
+
+            <label for="demo2">interest rate</label>
+            <input type="number" class=" form-control" id="demo2" placeholder="%" >
+
+            <label for="demo3">The number of years of the loan</label>
+            <input type="number" class=" form-control" id="demo3" required >
+
+            <button class="btn btn-secondary py-2 mt-2 w-100">Account running</button>
+
+            <div class="result py-1 mt-2">
+                    <h3 >Benefit: <span id="finallll" class=" m-2"></span></h3>
+                    <h2>The total amount: <span id="total"></span></h2>
+                    <h3>Monthely: <span id="month" class=" m-2"></span></h3>
+
+            </div>
+        </div>
+
+             
+
+        
+   </div>
+
+
+    <script src="jquery-3.6.2.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
